@@ -52,18 +52,18 @@ public class User {
 		
 	}
 
-	public User(String nickname, String login, String password,
-			String registrationDate, String skype, int age, Sex sex) {
-		this.nickname = nickname;
-		this.login = login;
-		this.password = password;
-		this.registrationDate = registrationDate;
-		this.skype = skype;
-		this.age = age;
-		this.sex = sex;
-		this.topics = topics;
-		this.comments = comments;
-	}
+//	public User(String nickname, String login, String password,
+//			String registrationDate, String skype, int age, Sex sex) {
+//		this.nickname = nickname;
+//		this.login = login;
+//		this.password = password;
+//		this.registrationDate = registrationDate;
+//		this.skype = skype;
+//		this.age = age;
+//		this.sex = sex;
+//		this.topics = topics;
+//		this.comments = comments;
+//	}
 
 	public int getId() {
 		return id;
